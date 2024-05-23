@@ -1,20 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-import Exercicio3 from './components/Exercicio3';
-
-function App() {
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './resources/css/index.css'
+import Mynavbar from './components/navbar' 
+import MyForm from './components/form';
 
 function App() {
   return (
     <div className="App">
-      {}
-      <Exercicio3/>
-      
+        <Mynavbar/>
+        <MyForm/>
     </div>
   );
-}
-
 }
 
 export default App;
